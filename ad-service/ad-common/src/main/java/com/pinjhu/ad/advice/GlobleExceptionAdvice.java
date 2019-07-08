@@ -14,6 +14,7 @@ public class GlobleExceptionAdvice {
     public CommonResponse<String> handlerAdException(HttpServletRequest req,
                                                     AdException ex){
         CommonResponse<String> response = new CommonResponse<>(-1,"error");
+        //test git commit
         response.setData(ex.getMessage());
         return response;
     }
