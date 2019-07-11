@@ -1,8 +1,8 @@
 -- ad-system 数据库
 drop DATABASE ad_system;
-CREATE DATABASE iad_system character set utf8;
+CREATE DATABASE ad_system character set utf8;
 
-use imooc_ad_data;
+use ad_system;
 
 -- 用户表
 CREATE TABLE `ad_user` (
