@@ -1,7 +1,6 @@
 package com.pinjhu.ad.index.keyword;
 
 import com.pinjhu.ad.index.IndexAware;
-import com.pinjhu.ad.utils.CommonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.apache.commons.collections4.CollectionUtils;

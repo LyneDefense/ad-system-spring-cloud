@@ -1,17 +1,13 @@
 package com.pinjhu.ad.index.district;
 
 import com.pinjhu.ad.index.IndexAware;
-import com.pinjhu.ad.utils.CommonUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.stream.Collectors;
 
 @Component
 @Slf4j
